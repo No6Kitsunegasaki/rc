@@ -1,0 +1,12 @@
+"3.1 (created: 2011/04/21 21:46:34)
+
+noremap j 9<C-e>
+noremap k 9<C-y>
+noremap <BS> <A-Left>
+noremap h <A-Left>
+noremap l <A-Right>
+noremap J gt
+noremap K gT
+set hintchars=lasdfghjk
+set complete=ls
+set titlestring=FireFox

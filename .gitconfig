@@ -1,0 +1,29 @@
+[user]
+  name = No6Kitsunegasaki\n\n
+  email = none.gingerale@gmail.com\n\n
+[color]
+  ui = auto
+[core]
+  autocrlf = false
+  whitespace = cr-at-eol
+# for windows
+#	editor = 'c:/Program Files (x86)/sakura/sakura.exe' -CODE=4 
+# for linux
+  editor = vim
+[pager]
+  diff = diff-so-fancy | less --tabs=2 -RFX
+  show = diff-so-fancy | less --tabs=2 -RFX
+[alias]
+  a = add
+  d = diff
+  dc = diff --cached
+  d1 = diff HEAD^ HEAD
+  d2 = diff HEAD~2 HEAD
+  b = branch
+  s = status
+  l = log --graph --oneline --decorate=full
+  cmt = commit
+  co = checkout
+  sh = show
+[i18n]
+  commitencoding = UTF-8
