@@ -4,6 +4,7 @@ set autoindent
 " インデント {の次は深くなど
 set smartindent
 
+
 """ 装飾
 " 色付き表示
 syntax on
@@ -33,7 +34,7 @@ set fileformats=unix,dos,mac
 set encoding=utf-8
 " ファイルエンコーディング
 set fileencoding=utf-8
-set fileencodings=euc-jp
+"set fileencodings=iso-2022-jp,euc-jp,cp932
 
 """ 検索
 " 大文字/小文字区別無し

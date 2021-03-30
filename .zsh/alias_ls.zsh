@@ -1,4 +1,7 @@
-# alias ls
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+# GNU
+#alias ls='ls --color=auto'
+# BSD
+alias ls='ls -G'
+alias ll='ls -alFG'
+alias la='ls -AG'
+alias l='ls -CFG'
