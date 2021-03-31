@@ -1,15 +1,14 @@
-[user]
-  name = No6Kitsunegasaki\n\n
-  email = none.gingerale@gmail.com\n\n
 [color]
   ui = auto
 [core]
   autocrlf = false
   whitespace = cr-at-eol
+  excludesfile = ~/.gitignore_global
 # for windows
-#	editor = 'c:/Program Files (x86)/sakura/sakura.exe' -CODE=4 
+#  editor = 'c:/Program Files (x86)/sakura/sakura.exe' -CODE=4 
 # for linux
   editor = vim
+#  editor = nvim
 [pager]
   diff = diff-so-fancy | less --tabs=2 -RFX
   show = diff-so-fancy | less --tabs=2 -RFX
@@ -17,13 +16,17 @@
   a = add
   d = diff
   dc = diff --cached
-  d1 = diff HEAD^ HEAD
+  d1 = diff HEAD~1 HEAD
   d2 = diff HEAD~2 HEAD
+  d3 = diff HEAD~3 HEAD
+  d4 = diff HEAD~4 HEAD
+  d5 = diff HEAD~5 HEAD
   b = branch
   s = status
   l = log --graph --oneline --decorate=full
   cmt = commit
-  co = checkout
+#  co = checkout
   sh = show
+  sw = switch
 [i18n]
   commitencoding = UTF-8
